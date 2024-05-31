@@ -23,8 +23,8 @@ body {
 .jobheader {
     display: flex;
     flex-direction: row;
-    gap: 0px;
-    border: 2px solid yellow;
+    gap: 30px;
+   
 }
 
 .jobheader img {
@@ -44,15 +44,18 @@ body {
     padding-bottom: 20px;
     align-items: center;
     gap: 10px;
-    border: 2px solid black;
+    
 }
 .rightupper span{
     width: fit-content;
     height: fit-content;
     text-decoration: none;
+    list-style: none;
 }
 .jobinfo{
    padding: 10px;
+   text-decoration: none;
+    list-style: none;
 }
 
 .new, .featured {
@@ -76,7 +79,7 @@ body {
     display: flex;
     margin: 10px 0;
     color: #7a8b92;
-    border: 2px solid green;
+    
 }
 
 .jobdetails span {
@@ -88,12 +91,14 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    border: 2px solid blue;
+    
 }
 
 .tags span {
     background-color: #eef6f6;
     color: #5ba4a4;
+    text-decoration: none;
+    list-style: none;
     border-radius: 15px;
     padding: 5px 10px;
     margin-right: 10px;
@@ -103,7 +108,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 2px solid blue;
     width: 80%;
     padding: 20px;
     margin: 0 auto;
