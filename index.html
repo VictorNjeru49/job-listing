@@ -3,20 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <title>Job Listings</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="filteroptions">
-    <div class="search">
-     <button class="filter" data-filter="frontend">frontend</button>
-    <button class="filter" data-filter="css">css</button>
-    <button class="filter" data-filter="JavaScript">javascript</button> 
-    </div>
+
+  
      <div class="clear">
+        <div class="filter-container">
+            <div class="filter-box">
+              <label for="filter-level">Level:</label>
+              <select id="filter-level">
+                <option value="">All</option>
+                <option value="">Senior</option>
+                <option value="">Midweight</option>
+                <option value="">Junior</option>
+              </select>
+            </div>
+            <div class="filter-box">
+              <label for="filter-role">Role:</label>
+              <select id="filter-role">
+                <option value="">All</option>
+                <option value="">Frontend</option>
+                <option value="">Fullstack</option>
+                <option value="">Backend</option>
+              </select>
+            </div>
+            <div class="filter-box">
+              <label for="filter-language">Language:</label>
+              <select id="filter-language">
+                <option value="">All</option>
+                <option value="">HTML</option>
+                <option value="">Python</option>
+                <option value="">JavaScript</option>
+                <option value="">Ruby</option>
+                <option value="">Css</option>
+              </select>
+            </div>
+            <div class="filter-box">
+              <label for="filter-tool">Tool:</label>
+              <select id="filter-tool">
+                <option value="">All</option>
+                <option value="">React</option>
+                <option value="">Sass</option>
+                <option value="">RoR</option>
+                <option value="">Vue</option>
+                <option value="">Django</option>
+                         
+              </select>
+            </div>
+          </div>
+          
       <button>clear</button>
      </div>
-  </div>
  
 
     <div class="container" id="joblistings">
